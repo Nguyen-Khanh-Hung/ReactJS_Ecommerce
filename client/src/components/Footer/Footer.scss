@@ -1,0 +1,42 @@
+.footer {
+  margin: 100px 200px 20px 200px;
+  .top {
+    display: flex;
+    gap: 50px;
+    .item {
+      flex: 1;
+      gap: 10px;
+      display: flex;
+      flex-direction: column;
+      text-align: justify;
+      font-size: 14px;
+      h1 {
+        font-size: 20px;
+      }
+      span {
+        color: grey;
+      }
+    }
+  }
+  .bottom {
+    display: flex;
+    justify-content: space-between;
+    .left {
+      display: flex;
+      align-items: center;
+      .logo {
+        color: #2879fe;
+        font-weight: bold;
+      }
+      span {
+        font-size: 12px;
+        margin-left: 10px;
+      }
+    }
+    .right {
+      img {
+        height: 50px;
+      }
+    }
+  }
+}
